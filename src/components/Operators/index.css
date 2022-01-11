@@ -1,0 +1,8 @@
+.calculator .operators {
+    display: grid;
+    gap: 0.5em;
+}
+
+.calculator .operators button {
+    color: rgb(247, 21, 126);
+}

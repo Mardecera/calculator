@@ -1,0 +1,19 @@
+.calculator .functions {
+    width: 100%;
+    display: grid;
+    gap: 0.5rem;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.calculator .functions button {
+    padding: 0;
+}
+
+.calculator .functions button:first-child {
+    grid-area: 1/1/2/3;
+    width: 100%;
+}
+
+.calculator .functions button:last-child {
+    grid-area: 1/3/2/4;
+}

@@ -1,0 +1,8 @@
+.calculator .screen__result {
+    background-color: rgb(195, 210, 238);
+    border: 5px solid white;
+    padding: 1em 0.5em;
+    border-radius: 0.3rem;
+    text-align: right;
+    font-size: 1.1rem;
+}
